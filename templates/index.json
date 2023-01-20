@@ -13,7 +13,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Shop now",
+            "text": "Unique jewlery for unique you",
             "text_style": "body"
           }
         },
@@ -53,14 +53,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>Our jewlery is crafted to your taste<\/p>",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Our skilled craftmen create perfect jewlery<\/p>"
           }
         }
       },
@@ -77,10 +77,51 @@
         "padding_bottom": 0
       }
     },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "14k-wire-bloom-earrings",
+            "second_image": false
+          }
+        },
+        "18564866-8373-4edf-b1b5-0aaba582a95a": {
+          "type": "product",
+          "settings": {
+            "product": "14k-intertwined-earrings",
+            "second_image": false
+          }
+        },
+        "1272eee0-f00d-4eb0-8593-99c50b4e9e24": {
+          "type": "product",
+          "settings": {
+            "product": "18k-pedal-ring",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "product",
+        "18564866-8373-4edf-b1b5-0aaba582a95a",
+        "1272eee0-f00d-4eb0-8593-99c50b4e9e24"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -104,45 +145,6 @@
         "padding_bottom": 36
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "video": {
       "type": "video",
       "settings": {
@@ -162,8 +164,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Simon",
+            "text": "<p>The rings I recieved beat my expectations. I am Speechless.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -171,8 +173,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Sara",
+            "text": "<p>The neckless looked amazing on around my neck. I can't ask for more. Just beautiful.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -180,8 +182,8 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Laila",
+            "text": "<p>The ear rings twinkles whenever I move around. I feel happy and beautiful.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -193,7 +195,7 @@
         "column3"
       ],
       "settings": {
-        "title": "",
+        "title": "Our customers",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
@@ -213,8 +215,8 @@
   "order": [
     "image_banner",
     "rich_text",
-    "featured_collection",
     "collage",
+    "featured_collection",
     "video",
     "multicolumn"
   ]
